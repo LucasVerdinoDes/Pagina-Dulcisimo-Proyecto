@@ -1,32 +1,67 @@
 <html>
-    <head><meta charset="UTF-8"></head>
-    <br><br><br><br><br>
-    <form class="row g-3" action="/nec" method="post">
-                    <div class="col-md-6">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="apellido" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" name="apellido">
-                    </div>
-                    <div class="col-12">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
-                    </div>
-                    <div class="col-12">
-                        <label for="tel" class="form-label">Tel</label>
-                        <input type="text" class="form-control" id="tel"
-                            placeholder="..." name="tel">
-                    </div>
-                    <div class="col-12">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea type="text" class="form-control" id="mensaje" rows="3" name="mensaje"> </textarea>
-                    </div>
-                   
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-                </form>{{message}}
-          
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+
+<body class="formu_nec">
+    <form class="row g-4 inscripciones" action="/nec" method="post">
+        <h6> Este es el formulario de inscripción para el grupo Niños en Camino (N.E.C)
+            formado por chicos y chicas de sala de 4 a 2° grado.
+        </h6>
+        <h3>Informacion del menor</h3>
+        <div class="input-group">
+            <span class="input-group-text">Nombre y Apellido</span>
+            <input type="text" aria-label="nombre" class="form-control" id="nombre" name="nombre">
+            <input type="text" aria-label="apellido" class="form-control" id="apellido" name="apellido">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Edad</span>
+            <input type="text" aria-label="edad" class="form-control" id="edad" name="edad">
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Colegio</span>
+            <input type="text" aria-label="colegio" class="form-control" id="colegio" name="colegio">
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Sala/grado</span>
+            <input type="text" aria-label="grado" class="form-control"  id="grado" name="grado">
+
+        </div>
+        <h3>Datos de adulto responsable</h3>
+        <div class="input-group">
+            <span class="input-group-text">Nombre y Apellido</span>
+            <input type="text" aria-label="nombre" class="form-control"  id="nombre-ad" name="nombre-ad">
+            <input type="text" aria-label="apellido" class="form-control"  id="apellido-ad" name="apellido-ad">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Celular</span>
+            <input type="text" aria-label="celular" class="form-control" placeholder="..." name="celular" id="celular">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Parentesco</span>
+            <input type="text" aria-label="parentesco" class="form-control"  id="parentesco" name="parentesco">
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Barrio donde viven</span>
+            <input type="text" aria-label="barrio" class="form-control"  id="barrio" name="barrio">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Email</span>
+            <input type="email" aria-label="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+        </div>
+        
+       
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>{{message}}
+
+</body>
+
 </html>

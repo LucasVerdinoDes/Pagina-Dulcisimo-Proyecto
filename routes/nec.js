@@ -12,14 +12,32 @@ router.post('/', async (req, res, next) => {
     var nombre = req.body.nombre;
     var apellido = req.body.apellido;
     var email = req.body.email;
-    var tel = req.body.tel;
-    var mensaje = req.body.mensaje;
+    var celular = req.body.celular;
+    var colegio = req.body.colegio;
+    var edad = req.body.edad;
+    var grado = req.body.grado;
+    var nombread = req.body.nombre-ad;
+    var apellidoad = req.body.apellido-ad;
+    var parentesco = req.body.parentesco;
+    var barrio = req.body.barrio;
+  
   
   
     var obj = {
       to: 'verdinolucas@gmail.com',
-      subject: 'contacto web',
-      html: nombre + apellido + " se contacto a través de la web y quiere mas información a este correo: " + email + ". <br> Además hizo el siguiente comentario: " + mensaje +". <br> Su tel es:" + tel
+      subject: 'Inscripción N.E.C',
+      html: "Informacion del menor",
+      html: "Nombre y apellido: " + nombre + apellido +
+            "Edad: " + edad +
+            "Colegio: " + colegio +
+            "Sala/grado: " + grado,
+      html: "Datos del adulto responsable",
+      html: "Nombre y Apellido: " + nombread + apellidoad +
+            "Parentesco: " + parentesco +
+            "Celular: " + celular +
+            "Barrio: " + barrio +
+            "Email: " + email,
+
     }
     var transport = nodemailer.createTransport({
       host: process.env.SMTP_HOST,

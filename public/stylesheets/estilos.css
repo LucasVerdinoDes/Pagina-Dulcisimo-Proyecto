@@ -1,41 +1,51 @@
 html {
     scroll-behavior: smooth;
 }
+
 .scroll_section {
     scroll-margin-top: 70px;
 }
+
 footer {
     background-color: #aaa;
     background-size: cover;
     margin-top: 10px;
 }
+
 #logo {
     height: 10%;
 }
-h1,h2 {
+
+h1,
+h2 {
     font-family: 'Alfa Slab One', cursive;
 }
+
 #contenido {
     margin-top: 50px;
 }
-.hero{
-   background-color: #dadada;
+
+.hero {
+    background-color: #dadada;
     background-size: cover;
     height: 50vh;
     min-height: 500px;
-    color: black ;
-   
+    color: black;
+
 }
-#contenedor{
+
+#contenedor {
     display: flex;
     margin-top: 100px;
 }
+
 #img1 {
     width: 400px;
     height: 200px;
     margin-left: 10%;
-   
+
 }
+
 .lista-novedades {
     margin: 0;
     padding: 0;
@@ -45,6 +55,7 @@ h1,h2 {
 .lista-novedades li {
     margin: 4px 0;
 }
+
 .lista-novedades li a {
     background-color: #fff;
     font-family: 'Alfa Slab One', cursive;
@@ -54,67 +65,102 @@ h1,h2 {
     transition: all .2s ease-in-out;
     display: block;
 }
-.lista-novedades li a:hover{
+
+.lista-novedades li a:hover {
     color: #212529;
     background-color: #dadada;
 }
-.testimonios{
+
+.testimonios {
     background-color: lightblue;
     padding-bottom: 4rem !important;
 }
+
 .testimonios p {
     text-align: center;
 }
-.testimonio{
+
+.testimonio {
     text-align: center;
     padding: 40px 20px;
 }
+
 #historia {
     background-color: lightcyan;
-    margin-left: 15% ;
+    margin-left: 15%;
     margin-right: 8.5%;
-    
+
 }
+
 #img5 {
     height: 122px;
-  width: 235px;
- 
+    width: 235px;
+
 }
-.staff{
+
+.staff {
     background: #efefef;
 }
+
 .mapa iframe {
     width: 65%;
     aspect-ratio: 1.1;
 }
-.redes{
+
+.redes {
     list-style: none;
 }
+
 .redes li a {
-    display: block ;
+    display: block;
     font-family: 'arial', cursive;
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
-    transition: all .2s ease-in-out;    
+    transition: all .2s ease-in-out;
 }
-.redes li a:hover{
-    color: blue;
-    background-color: #dadada;
-}
-.wpp{
-    list-style: none;
-}
-.wpp li a {
-    display: block ;
-    font-family: 'arial', cursive;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
-    transition: all .2s ease-in-out;    
-}
-.wpp li a:hover{
+
+.redes li a:hover {
     color: blue;
     background-color: #dadada;
 }
 
+.wpp {
+    list-style: none;
+}
+
+.wpp li a {
+    display: block;
+    font-family: 'arial', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+.wpp li a:hover {
+    color: blue;
+    background-color: #dadada;
+}
+
+.formu_nec {
+    background-color: #f2e1fa;
+    background-image: radial-gradient(#cd81e9 0.5px, transparent 0.5px), radial-gradient(#cd81e9 0.5px, #f2e1fa 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+  
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.inscripciones {
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 600px ;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
+}
