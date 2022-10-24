@@ -148,17 +148,44 @@ h2 {
     background-image: radial-gradient(#cd81e9 0.5px, transparent 0.5px), radial-gradient(#cd81e9 0.5px, #f2e1fa 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
-  
+
     min-height: 100vh;
     box-sizing: border-box;
 
+}
+
+.formu_prea {
+    background-color: #ffa07d;
+    background-image: radial-gradient(#ff7400 0.5px, transparent 0.5px), radial-gradient(#ff7400 0.5px, #ffa07d 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.formu_cat {
+    background-color: #87a9ff;
+    background-image: radial-gradient(#4584f7 0.5px, transparent 0.5px), radial-gradient(#4584f7 0.5px, #87a9ff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.formu_confirmacion {
+    background-color: #fff1a8;
+    background-image: radial-gradient(#f9e75e 0.5px, transparent 0.5px), radial-gradient(#f9e75e 0.5px, #fff1a8 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .inscripciones {
     background-color: #fff;
     margin: auto;
     width: 90%;
-    max-width: 600px ;
+    max-width: 600px;
     padding: 4.5em 3em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);

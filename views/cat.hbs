@@ -1,14 +1,73 @@
 <html>
-    <head><meta charset="UTF-8"></head>
-    <form action="">
-<br><br><br><br><br>
-      <h1 class="text-center" style="text-align: center;">Acá va el formulario para la Inscripcion a Catequesis</h1>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+
+<body class="formu_cat">
+    <form class="row g-4 inscripciones" action="/cat" method="post">
+        <h6> Este es el formulario de inscripción para el grupo de Catequesis formado por chicos y chicas
+            de 3° y 4° grado que se van a preparar para tomar su primera comunión.
+        </h6>
+        <h3>Información del menor</h3>
+        <div class="input-group">
+            <span class="input-group-text">Nombre y Apellido</span>
+            <input type="text" aria-label="nombrecat" class="form-control" id="nombrecat" name="nombrecat">
+            <input type="text" aria-label="apellidocat" class="form-control" id="apellidocat" name="apellidocat">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Edad</span>
+            <input type="text" aria-label="edadcat" class="form-control" id="edadcat" name="edadcat">
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Colegio</span>
+            <input type="text" aria-label="colegiocat" class="form-control" id="colegiocat" name="colegiocat">
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Grado</span>
+            <input type="text" aria-label="gradocat" class="form-control" id="gradocat" name="gradocat">
+
+        </div>
+        <h3>Datos de adulto responsable</h3>
+        <div class="input-group">
+            <span class="input-group-text">Nombre y Apellido</span>
+            <input type="text" aria-label="nombre" class="form-control" id="nombrecat2" name="nombrecat2">
+            <input type="text" aria-label="apellido" class="form-control" id="apellidocat2" name="apellidocat2">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Celular</span>
+            <input type="text" aria-label="celular" class="form-control" placeholder="..." name="celularcat"
+                id="celularcat">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Parentesco</span>
+            <input type="text" aria-label="parentesco" class="form-control" id="parentescocat" name="parentescocat">
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Barrio donde viven</span>
+            <input type="text" aria-label="barrio" class="form-control" id="barriocat" name="barriocat">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Email</span>
+            <input type="email" aria-label="email" class="form-control" id="emailcat" placeholder="example@gmail.com"
+                name="emailcat">
+        </div>
+        <div class="mb-2">
+            <label for="formFile" class="form-label">Adjunta la ficha aca</label>
+            <input class="form-control" type="file" id="formFilecat" name="formFilecat">
+        </div>
 
 
 
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>{{messagecat}}
 
+</body>
 
-
-
-    </form>
 </html>
