@@ -30,7 +30,9 @@ router.post('/', async (req, res, next) => {
       }
     });
     var info = await transport.sendMail(obj);
-   
+    res.render('nec', {
+        message: 'Mensaje enviado correctamente'
+      });
    
   });
 module.exports = router;
