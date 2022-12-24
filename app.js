@@ -13,7 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/novedades');
-var adminRouter2 = require('./routes/admin/fotos');
+
 
 
 var necRouter = require('./routes/nec');//nec.js
@@ -72,7 +72,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
 app.use('/admin/novedades', secured, adminRouter);
-app.use('/admin/fotos', secured, adminRouter2);
+
 
 app.use('/nec', necRouter);
 app.use('/cat', catRouter);
