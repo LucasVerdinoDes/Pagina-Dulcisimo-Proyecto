@@ -1,0 +1,5 @@
+CLEARDB_COPPER_URL: mysql://b943f57bd0d5f2:81c6bed3@us-cdbr-east-06.cleardb.net/heroku_9e1f994f1849ca7?reconnect=true
+DB name: 	heroku_9e1f994f1849ca7 
+Host: 		us-cdbr-east-06.cleardb.net 
+Password: 	81c6bed3 
+User: 		b943f57bd0d5f2 
